@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.card{
+    display: inline-block;
+    width: 47rem;
+    height: 18.7rem;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+}
+
+.img{
+    float: right;
+    width: 48%;
+    border-radius: 0 .5rem .5rem 0;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-family: 'Inter', sans-serif;
+    padding-left: 2rem;
+    padding-right: 27.5rem;
+    padding-top: 1rem;
+    color:  hsl(0, 0%, 100%);
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.main{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 2rem;
+    padding-right: 20rem;
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Lexand Deca', sans-serif;
+}
+
+.record{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+}
+
+.works{
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-size: .5rem;
+    position: relative;
+    top: -.5rem;
+}
+
+h3{
+    color:  hsla(0, 0%, 100%, 0.6);
+}
+
+@media  (max-width : 768px){
+    section{
+        flex-direction: column;
+    }
+}
